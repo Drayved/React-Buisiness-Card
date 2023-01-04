@@ -19,7 +19,7 @@ function Header(){
                 <p>My learning journal website</p>
             </a>
             <button className='email-btn'>
-            <a href="dril112191@gmail.com">
+            <a href="mailto:dril112191@gmail.com?subject=SendMail&body=Description">
                <img className='email' src={emailIcon}/> 
                Email
             </a>
