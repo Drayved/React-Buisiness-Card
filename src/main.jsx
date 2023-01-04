@@ -2,13 +2,13 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
 import './index.css'
-import david from "./images/david.jpg"
+import myPic from "./images/david.jpg"
 
 
 function Header(){
     return (
         <header className='header-container'>
-            <img className='my-img' src="david" alt="David"/>
+            <img className='my-img' src={myPic} alt="David"/>
             <h1>David Riley</h1>
             <h3>Frontend Developer</h3>
             <a className='website' href="https://spontaneous-salamander-91570a.netlify.app">
