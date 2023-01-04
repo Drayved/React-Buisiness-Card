@@ -75,7 +75,7 @@ footer{
   display: flex;
   justify-content: space-evenly;
   padding: 1.5625em 0;
-  position: absolute;
+  position: relative;
   bottom: 0;
   right: 0;
 }
@@ -106,5 +106,11 @@ footer{
 @media(max-width: 450px) {
   .my-img{
     height: 21em;
+  }
+}
+
+@media(min-height: 1100px){
+  footer{
+    position: absolute;
   }
 }
