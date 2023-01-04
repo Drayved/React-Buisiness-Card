@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom'
 import App from './App'
 import './index.css'
 import myPic from "./images/david.jpg"
+import emailIcon from "./images/email-Icon.png"
+import gitHubIcon from "./images/GitHub-Icon.png"
+import fbIcon from "./images/FacebookIcon.png" 
+import linkedInIcon from "./images/Linkedin-Icon.png"
 
 
 function Header(){
@@ -16,7 +20,7 @@ function Header(){
             </a>
             <button className='email-btn'>
             <a href="dril112191@gmail.com">
-               <img className='email' src="images/email-Icon.png"/> 
+               <img className='email' src={emailIcon}/> 
                Email
             </a>
             </button>
@@ -51,13 +55,13 @@ function Footer(){
    return (
     <footer className='footer-container'>
         <a href="https://www.facebook.com/david.riley.904">
-            <img className='footer-img' src="images/FacebookIcon.png" alt="Facebook icon" />
+            <img className='footer-img' src={fbIcon} alt="Facebook icon" />
         </a>
         <a href="https://github.com/Drayved">
-            <img className='footer-img' src="images/GitHub-Icon.png" alt="Github icon" />
+            <img className='footer-img' src={gitHubIcon} alt="Github icon" />
         </a>
         <a href="https://www.linkedin.com/in/david-riley21/">
-            <img className='footer-img' src="images/Linkedin-Icon.png" alt="Linkedin icon" />
+            <img className='footer-img' src={linkedInIcon} alt="Linkedin icon" />
         </a>
     </footer>
     )
