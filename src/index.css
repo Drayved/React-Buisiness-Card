@@ -102,3 +102,9 @@ footer{
     width: 80%;
   }
 }
+
+@media(max-width: 450px) {
+  .my-img{
+    height: 21em;
+  }
+}
