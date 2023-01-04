@@ -15,7 +15,7 @@ function Header(){
             </a>
             <button className='email-btn'>
             <a href="dril112191@gmail.com">
-               <img className='email' src="images/email-icon.png"/> 
+               <img className='email' src="images/email-Icon.png"/> 
                Email
             </a>
             </button>
