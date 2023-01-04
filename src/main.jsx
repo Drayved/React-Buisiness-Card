@@ -7,7 +7,7 @@ import './index.css'
 function Header(){
     return (
         <header className='header-container'>
-            <img className='my-img' src="./images/David.jpg" alt="" width="800px"/>
+            <img className='my-img' src="images/David.JPG" alt="" width="800px"/>
             <h1>David Riley</h1>
             <h3>Frontend Developer</h3>
             <a className='website' href="https://spontaneous-salamander-91570a.netlify.app">
