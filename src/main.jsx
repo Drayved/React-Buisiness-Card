@@ -32,7 +32,7 @@ function Main(){
                 <h2 className='title'>About</h2>
                 <p className='main-text'>I am a self taught frontend developer that has been involved with the tech world
                     for 15 years personally, and 10 years professionally. I decided in 2022 that I 
-                    wanted to learn how to code and have been loving the journey so far and can'
+                    wanted to learn how to code and have been loving the journey so far and can't
                     wait to see where it takes me
                 </p>
             </div>
