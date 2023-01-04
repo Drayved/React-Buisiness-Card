@@ -1,0 +1,92 @@
+body,
+html{
+  max-width: 62.5em;
+  margin: auto;
+  font-family: 'Inter', sans-serif;
+}
+
+/* header */
+
+.header-container{
+  text-align: center;
+ 
+}
+
+.my-img{
+  height: 32.5em;
+  width:100%;
+}
+
+header > h3{
+  margin-top: -.8em;
+  color: #F47D27
+}
+
+/* Buttons */
+
+header > button{
+  border-radius: 6px;
+  padding: 1.2em 1.875em;
+  width: 10em;
+}
+
+button{
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.email{
+  padding-right: .5em;
+}
+
+.email-btn{
+  margin: 1.5em 0;
+  background-color: transparent;
+  border: 1px solid gray;
+  width: 80%;
+}
+
+.website{
+  color: #4A4E74;
+}
+
+/* Main content */
+
+.main-container{
+  text-align: left;
+  max-width: 80%;
+  margin: 0 auto
+}
+
+.main-text{
+  line-height: 1.3em;
+  color: #4A4E74;
+}
+
+/* Footer */
+
+footer{
+  border: 1px solid #D5D4D8;
+  background-color: #D5D4D8;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.5625em 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.footer-container{
+  width: 100%;
+  margin: auto;
+  max-width: 100%;
+}
+
+.footer-img{
+  width: 2.1875em;
+ 
+}
